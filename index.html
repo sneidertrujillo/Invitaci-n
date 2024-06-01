@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #ffffff; /* Color del texto blanco */
+            overflow: hidden; /* Para evitar que el video se desborde */
+        }
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        h1, p, .signature {
+            font-weight: bold; /* Texto en negrita */
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Sombra del texto */
+            mix-blend-mode: difference; /* Ajuste para resaltar el texto */
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8); /* Sombra del texto */
+            mix-blend-mode: difference; /* Ajuste para resaltar el texto */
+        }
+        .signature {
+            font-style: italic;
+            text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8); /* Sombra del texto */
+            mix-blend-mode: difference; /* Ajuste para resaltar el texto */
+        }
+    </style>
+</head>
+<body>
+    <video muted autoplay loop>
+        <source src="./IMG/img/AdobeStock_744625337_Video_HD_Preview (online-video-cutter.com) (1).mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1>¡Querida Luz Mariela!</h1>
+        <p>Espero que este mensaje te encuentre bien. Me complace mucho invitarte a celebrar un día muy especial, tu cumpleaños.</p>
+        <p>El día 15 de junio de este año. Te esperamos con ansias para compartir momentos de alegría y diversión. No olvides traer tu mejor atuendo.</p>
+        <p>Con cariño,</p>
+        <p class="signature">Tu Familia</p>
+    </div>
+</body>
+</html>
+ 
